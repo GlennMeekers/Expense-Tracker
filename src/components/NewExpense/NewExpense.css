@@ -9,7 +9,8 @@
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
 }
 
-.new-expense button {
+.new-expense button,
+.new-expense__button {
   font: inherit;
   cursor: pointer;
   padding: 1rem 2rem;
@@ -18,10 +19,12 @@
   color: white;
   border-radius: 12px;
   margin-right: 1rem;
+  display: inline-block;
 }
 
 .new-expense button:hover,
-.new-expense button:active {
+.new-expense button:active,
+.new-expense__button:hover {
   background-color: #510674;
   border-color: #510674;
 }
